@@ -1,0 +1,80 @@
+ /*body {
+    height: 1000px;
+} */
+
+
+
+.container {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: #a2d2ff;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.image {
+    border: 8px solid #efb0c9;
+    border-radius: 50%;
+    width: 500px;
+}
+
+#body-age {
+    background: #efb0c9;
+    padding: 8px 12px; 
+    border-radius: 5px;
+    margin: 5px 0 10px 0; /* applying shorthand */
+
+}
+
+#body-time {
+    background: #efb0c9;
+    padding: 8px 12px; 
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+/*h1, h2 , h4  {
+   text-shadow: 0px 0px  5px black;
+
+} */
+
+h2,h4 {
+    background: #efb0c9;
+   /* width: 150px; */
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-text {
+    background: none;
+}
+
+.gift-image {
+    width: 400px;
+    height: 400px;
+    border:  8px solid white;
+    border-radius: 6px;
+    background-image: url("birthday 1.jpeg"); /*allows you to place an image on a specific container */
+    background-size: cover;
+}
+
+.gift-image:hover{
+    background-image: url("love sigh.webp");
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    border: 2px solid #efb0c9 ;
+    background: white;
+    margin:  8px 8px ;
+}
